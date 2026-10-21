@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(800, 784);
   background(233, 237, 232);
-  frameRate(10);
+  frameRate(7);
 
   loadImage("textura.png", function(img) {
     textura = img;
@@ -39,6 +39,6 @@ function draw() {
   rect(370,740,240,10);
 
   fill(238,36,0); //vermelho
-  rect(0,0,random(360,390),random(310,340));
+  rect(0,0,random(360,370),random(310,320));
 
 }
